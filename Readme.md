@@ -234,7 +234,7 @@ Impara a orchestrare, rimani rigoroso e ricorda che l’unica vera intelligenza 
 
 La teoria dell'orchestrazione applicata ai domini specifici. Scegli il tuo campo di applicazione:
 
-* 📖 **[Appendice A: Produzione di Testo e Libreria dei Prompt](APPENDICE_A_Testo.md)**
-* 🗺️ **[Appendice B: Worldbuilding e Narrativa (Il Sistema Codex)](APPENDICE_B_Worldbuilding.md)**
-* 🎨 **[Appendice C: Produzione Visiva (Immagini e Video)](APPENDICE_C_Immagini.md)**
-* 💻 **[Appendice D: Produzione di Codice e Agenti (Custom Tools)](APPENDICE_D_Codice.md)**
+* 📖 **[Appendice A: Produzione di Testo e Libreria dei Prompt](appendice_a_testo.md)**
+* 🗺️ **[Appendice B: Worldbuilding e Narrativa (Il Sistema Codex)](appendice_b_worldbuilding.md)**
+* 🎨 **[Appendice C: Produzione Visiva (Immagini e Video)](appendice_c_immagini.md)**
+* 💻 **Appendice D: Produzione di Codice e Agenti (Custom Tools)** — *in preparazione*
