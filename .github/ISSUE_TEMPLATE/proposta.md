@@ -1,26 +1,19 @@
 ---
-name: Proposta editoriale o metodologica
-description: Proponi un miglioramento non riconducibile a una semplice errata
+name: Proposta
+about: Proponi un chiarimento o un miglioramento metodologico/editoriale
 title: "[PROPOSTA] "
-labels: []
-assignees: []
+labels: proposta
+assignees: ''
 ---
 
 ## Obiettivo
+Che cosa migliorerebbe la proposta per il lettore?
 
-Quale problema dovrebbe risolvere la proposta?
-
-## Area interessata
-
-Capitolo / appendice / concetto:
+## Sezione interessata
+Indica capitolo o appendice.
 
 ## Modifica proposta
+Descrivi l'intervento con il minor perimetro possibile.
 
-
-## Impatto previsto
-
-Quali altre parti del manuale potrebbero essere coinvolte?
-
-## Criterio di successo
-
-Come possiamo verificare che la modifica migliori realmente la baseline?
+## Impatto
+Quali altre parti del manuale potrebbero dipendere da questa modifica?

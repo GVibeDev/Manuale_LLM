@@ -1,25 +1,16 @@
 cff-version: 1.2.0
-message: "Se usi o citi questo manuale, usa questa citazione."
-title: "LLM — Metodo, struttura e responsabilità nel lavoro con modelli linguistici generativi"
+message: "Se usi o citi questo manuale, puoi citare questa repository."
+title: "LLM — Metodo, struttura e responsabilità"
 type: book
+version: 1.0.0
+date-released: 2026-09-10
 authors:
-  - family-names: "Scavo"
-    given-names: "Giovambattista"
-version: "1.0.0"
-date-released: "2026-09-10"
+  - family-names: Scavo
+    given-names: Giovambattista
 repository-code: "https://github.com/GVibeDev/Manuale_LLM"
 url: "https://github.com/GVibeDev/Manuale_LLM"
 abstract: >-
   Manuale operativo in italiano sul lavoro con modelli linguistici generativi:
-  prompting, gestione del contesto, diagnostica, prompting meta-cognitivo,
-  strutture complesse, BLCDD e applicazioni a testo, narrativa, produzione
-  visiva e codice.
-keywords:
-  - LLM
-  - prompting
-  - prompt engineering
-  - generative AI
-  - context management
-  - RAG
-  - AI agents
-  - BLCDD
+  progettazione dei prompt, gestione del contesto, diagnostica, prompting
+  meta-cognitivo, strutture complesse, BLCDD e applicazioni a testo,
+  narrativa, produzione visiva e codice.

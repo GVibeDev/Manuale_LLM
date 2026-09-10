@@ -1,32 +1,19 @@
 ---
 name: Errata
-description: Segnala un errore tecnico, fattuale, editoriale o di formattazione
+about: Segnala un errore fattuale, tecnico, terminologico o un refuso
 title: "[ERRATA] "
-labels: []
-assignees: []
+labels: errata
+assignees: ''
 ---
 
-## Dove si trova
+## Dove
+Indica capitolo/sezione e, se possibile, cita brevemente il passaggio.
 
-Capitolo / appendice / sezione:
-
-## Tipo di problema
-
-- [ ] Tecnico o fattuale
-- [ ] Terminologico
-- [ ] Editoriale / chiarezza
-- [ ] Refuso / formattazione
-- [ ] Differenza tra Markdown e DOCX
-
-## Passaggio interessato
-
-
-## Problema osservato
-
+## Problema
+Descrivi l'errore o l'ambiguità.
 
 ## Correzione proposta
-
+Indica la modifica minima suggerita.
 
 ## Fonte o verifica
-
-Se pertinente, indica una fonte verificabile o il metodo usato per controllare il problema.
+Se la segnalazione è tecnica o fattuale, aggiungi una fonte verificabile o spiega come hai verificato il problema.

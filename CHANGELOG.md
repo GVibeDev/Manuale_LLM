@@ -22,3 +22,8 @@ Prima baseline di pubblicazione.
 - sostituiti nel corpo del manuale i nomi interni dei progetti con descrizioni funzionali;
 - introdotte Sintesi operative, glossario e sezione "Come usare questo manuale";
 - predisposte edizioni DOCX e GitHub Flavored Markdown dalla stessa baseline.
+- chiarita la finestra di contesto senza legare il manuale a dimensioni specifiche di singoli modelli;
+- distinta la maggiore ripetibilità dal determinismo garantito;
+- esplicitato quando BLCDD è sovradimensionato rispetto al compito;
+- collegato il prompting A Layer alla soglia di degradazione e alla necessità di reset;
+- chiarita la natura model-agnostic del metodo a livello di processo, senza pretese di universalità assoluta.

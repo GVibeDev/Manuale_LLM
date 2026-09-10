@@ -58,7 +58,7 @@ Una quinta appendice rende trasparente la provenienza dei casi di studio reali u
 
 ## A chi è rivolto
 
-Il manuale è pensato per chi usa sistemi basati su LLM come strumenti di lavoro, progettazione o produzione e vuole maggiore controllo su contesto, verifiche e continuità. Non è un corso di machine learning, non richiede competenze di programmazione e non è una raccolta di prompt "magici".
+Il manuale è pensato per chi usa sistemi basati su LLM come strumenti di lavoro, progettazione o produzione e vuole maggiore controllo su contesto, verifiche e continuità. Non è un corso di machine learning, non richiede competenze di programmazione e non è una raccolta di prompt "magici". L’approccio è agnostico rispetto al modello soprattutto a livello di processo: ogni pratica va adattata alle capacità e agli strumenti del sistema effettivamente usato.
 
 ## Trasparenza sull'uso dell'IA
 

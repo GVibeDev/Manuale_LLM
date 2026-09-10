@@ -77,7 +77,7 @@ La seconda parte applica gli stessi principi a quattro domini: produzione testua
 
 Le Sintesi operative alla fine dei capitoli sono pensate anche per il ritorno rapido su un tema già letto. Non è necessario memorizzare formule di prompt: è più utile capire quali informazioni servono, quali decisioni non vuoi delegare e quale evidenza considererai sufficiente.
 
-Non è un corso di machine learning, non richiede competenze di programmazione e non è una raccolta di prompt “magici”. Chi cerca dettagli di training, infrastruttura o API dovrà affiancare fonti specialistiche. Qui il centro è il lavoro dell’utente: contesto, specifica, verifica, continuità e controllo del cambiamento.
+Non è un corso di machine learning, non richiede competenze di programmazione e non è una raccolta di prompt “magici”. Chi cerca dettagli di training, infrastruttura o API dovrà affiancare fonti specialistiche. Qui il centro è il lavoro dell’utente: contesto, specifica, verifica, continuità e controllo del cambiamento. Il libro non è una comparativa tra modelli: le pratiche proposte operano soprattutto a livello di processo e vanno adattate alle capacità, ai limiti e agli strumenti del sistema concretamente utilizzato.
 
 ## Indice
 
@@ -237,6 +237,8 @@ Formulazione, ambiguità, tono, esempi e contesto orientano la distribuzione deg
 ##### Variabilità tra esecuzioni dello stesso input
 
 Quando il sistema usa sampling stocastico, due esecuzioni dello stesso input possono produrre risposte differenti. Temperatura e altri parametri di decoding possono modificare questa variabilità; possono contribuire anche eventuali condizioni non deterministiche del sistema o differenze nel contesto realmente fornito a ciascuna esecuzione.
+
+Quando il sistema espone parametri di decoding, ridurre la componente stocastica può aumentare la ripetibilità dell’output. Non equivale però a garantire determinismo: il risultato può ancora dipendere dal contesto effettivamente fornito, dalla versione e dall’implementazione del sistema e dall’eventuale uso di strumenti esterni.
 
 La variabilità non è necessariamente un difetto:  
 può essere un vantaggio creativo, mentre nei compiti rigorosi va controllata.
@@ -471,6 +473,8 @@ Il processo tipico è:
 Il prompting A Layer è la forma più vicina alla collaborazione:  
 non imponi un risultato, costruisci una direzione.
 
+A Layer rimane utile finché ogni iterazione riduce l’incertezza o migliora il risultato secondo criteri osservabili. Se gli strati iniziano ad accumulare eccezioni, perdere vincoli o produrre nuove derive, aggiungerne un altro non è più raffinamento: è un segnale da diagnosticare. In quei casi può essere necessario ripulire il contesto o tornare a una baseline stabile, come vedremo nei Capitoli 4 e 5.
+
 #### 2. Prompt monolitico: dare tutto subito
 
 Il prompting monolitico fa l’opposto: inserisci in un’unica istruzione tutto ciò che serve al modello per produrre il risultato finale.
@@ -634,6 +638,9 @@ Una delle illusioni più forti quando si lavora con un LLM è credere che il mod
 Considerato isolatamente, il modello non possiede una memoria autobiografica autonoma della conversazione.
 
 Lavora sui contenuti che il sistema gli rende disponibili nel contesto corrente. Questi possono includere messaggi visibili, istruzioni di sistema, sintesi, documenti recuperati, dati persistenti o output di strumenti esterni.  
+
+La quantità di materiale che può essere resa disponibile in una singola elaborazione è limitata dalla finestra di contesto (*context window*), la cui dimensione varia tra modelli e prodotti. Quando il materiale supera ciò che il sistema può presentare al modello, parti della cronologia possono essere escluse, sintetizzate o recuperate selettivamente; anche prima del limite, essere presenti non garantisce che tutte le informazioni mantengano la stessa salienza.
+
 Questo implica una verità operativa importante:
 
 la continuità non è garantita dal modello: va progettata dall’utente o dal sistema che lo utilizza.
@@ -1936,6 +1943,10 @@ In una ricerca, i contratti possono essere definizioni e criteri di fonte. In un
 
 BLCDD non è quindi un modo per «scrivere codice con l’IA». È un modo per governare il cambiamento quando un LLM partecipa a un sistema che deve restare coerente nel tempo.
 
+##### Quando BLCDD è eccessivo
+
+BLCDD non è necessario per ogni interazione con un LLM. Una richiesta usa-e-getta, una bozza esplorativa o un compito a basso rischio possono non richiedere baseline, contratti e gate formali. Il metodo diventa utile quando esiste qualcosa che vale la pena preservare: uno stato già validato, dipendenze, decisioni condivise o un costo concreto della regressione.
+
 #### Sintesi operativa — BLCDD in 60 secondi
 
 Sequenza minima: BASELINE → CONTRATTI → IMPACT AUDIT → INTERVENTO SUFFICIENTE → VERIFICA → PROMOZIONE O MANTENIMENTO DELLA BASELINE.
@@ -2903,6 +2914,10 @@ Unità in cui il testo viene segmentato per l’elaborazione del modello; può e
 
 Informazioni rese disponibili al modello durante una specifica interazione: messaggi, istruzioni, file, sintesi o dati recuperati.
 
+### Finestra di contesto (context window)
+
+Limite massimo di materiale che un modello può trattare in una singola elaborazione. La dimensione varia tra modelli e prodotti; il sistema può inoltre selezionare, sintetizzare o recuperare soltanto una parte delle informazioni disponibili prima di presentarle al modello.
+
 ### Retrieval
 
 Recupero di informazioni da fonti esterne da fornire al modello come contesto.
@@ -2917,7 +2932,7 @@ Procedura con cui vengono selezionate continuazioni fra alternative possibili se
 
 ### Temperatura
 
-Parametro di decoding che, quando esposto dal sistema, può modificare la distribuzione delle scelte e la variabilità dell’output.
+Parametro di decoding che, quando esposto dal sistema, può modificare la distribuzione delle scelte e la variabilità dell’output. Ridurre la componente stocastica può aumentare la ripetibilità, ma non garantisce determinismo.
 
 ### Salienza
 
