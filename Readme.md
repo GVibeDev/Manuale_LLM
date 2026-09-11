@@ -80,4 +80,14 @@ Le modifiche editoriali e metodologiche sono registrate in **[CHANGELOG.md](CHAN
 
 ## Licenza
 
-La repository storica utilizza attualmente una licenza MIT. Prima della pubblicazione definitiva della versione 1.0 è opportuno confermare che questa scelta corrisponda ai diritti di riuso desiderati per un'opera testuale.
+© 2026 Giovambattista Scavo.
+
+Salvo diversa indicazione, il manuale e i contenuti di questa repository sono distribuiti con licenza **[Creative Commons Attribuzione–NonCommerciale–NonOpereDerivate 4.0 Internazionale](LICENSE)** (**CC BY-NC-ND 4.0**).
+
+Puoi copiare e condividere gratuitamente il materiale, anche in altri formati, purché rimanga integro, venga attribuito a Giovambattista Scavo e non sia usato per scopi commerciali. Traduzioni, adattamenti, edizioni derivate e usi commerciali richiedono un'autorizzazione separata del titolare dei diritti.
+
+Citazione consigliata:
+
+> *LLM — Metodo, struttura e responsabilità*, Giovambattista Scavo, versione 1.0.0, <https://github.com/GVibeDev/Manuale_LLM>, licenza CC BY-NC-ND 4.0.
+
+Le revisioni precedenti alla sostituzione della licenza sono state pubblicate sotto licenza MIT; i diritti già concessi su quelle revisioni restano validi. Consulta **[LICENSE](LICENSE)** per ambito, termini e collegamenti al testo legale ufficiale.
