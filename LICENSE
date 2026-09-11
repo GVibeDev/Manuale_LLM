@@ -1,21 +1,45 @@
-MIT License
+Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International
+CC BY-NC-ND 4.0
 
-Copyright (c) 2026 G Vibe Dev
+Copyright (c) 2026 Giovambattista Scavo
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Except where otherwise noted, the contents of this repository, including the
+manual in Markdown and DOCX formats, are licensed under the Creative Commons
+Attribution-NonCommercial-NoDerivatives 4.0 International Public License.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+You are free to copy and redistribute the material in any medium or format,
+provided that you:
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+- give appropriate credit to Giovambattista Scavo;
+- provide a link to the license;
+- use the material only for non-commercial purposes; and
+- do not distribute remixed, transformed, translated, or otherwise adapted
+  versions of the material.
+
+Technical modifications necessary to share the unmodified material in another
+medium or format are permitted under the license.
+
+Full license text:
+https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+
+Human-readable summary:
+https://creativecommons.org/licenses/by-nc-nd/4.0/
+
+Suggested attribution:
+
+"LLM — Metodo, struttura e responsabilità", Giovambattista Scavo,
+version 1.0.0, https://github.com/GVibeDev/Manuale_LLM,
+licensed under CC BY-NC-ND 4.0.
+
+This license does not grant rights in third-party material, trademarks, logos,
+or other elements explicitly identified as excluded. Commercial uses,
+translations, adaptations, derivative editions, and other permissions not
+granted by this license require separate authorization from the copyright
+holder.
+
+Note on previous versions:
+
+Earlier repository revisions were published under the MIT License. Rights
+already received under that license remain unaffected. This CC BY-NC-ND 4.0
+notice applies to the repository content from the revision that introduced it
+onward, except where otherwise noted.
