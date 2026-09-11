@@ -2997,3 +2997,15 @@ Insieme di test destinati a verificare che comportamenti già validati continuin
 ### BLCDD
 
 Baseline, Locked Contracts, Change-impact Audit, Deliberate Minimal Intervention, Demonstrated Delivery: metodo per governare l’evoluzione controllata di un progetto assistito da LLM.
+
+---
+
+## Licenza e diritti d’autore
+
+© 2026 Giovambattista Scavo.
+
+Salvo diversa indicazione, quest’opera è distribuita con licenza **Creative Commons Attribuzione–NonCommerciale–NonOpereDerivate 4.0 Internazionale** (**CC BY-NC-ND 4.0**).
+
+Puoi copiare e condividere gratuitamente il materiale, anche in altri formati, purché rimanga integro, venga attribuito a Giovambattista Scavo e non sia usato per scopi commerciali. Traduzioni, adattamenti, edizioni derivate e usi commerciali richiedono un’autorizzazione separata del titolare dei diritti.
+
+Testo della licenza e indicazioni per l’attribuzione: [LICENSE](LICENSE).
