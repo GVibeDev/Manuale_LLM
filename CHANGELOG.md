@@ -2,6 +2,15 @@
 
 Le modifiche rilevanti al manuale vengono registrate in questo file.
 
+
+## [Non pubblicato]
+
+### Licenza
+
+- sostituita la licenza MIT con Creative Commons Attribuzione–NonCommerciale–NonOpereDerivate 4.0 Internazionale per le revisioni successive alla modifica;
+- aggiunti avviso di copyright, attribuzione consigliata e nota sulla permanenza dei diritti già concessi sulle revisioni pubblicate sotto MIT;
+- sincronizzate le informazioni di licenza nel README e nelle edizioni Markdown e DOCX.
+
 ## [1.0.0] — 2026-09-10
 
 Prima baseline di pubblicazione.
